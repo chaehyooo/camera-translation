@@ -1,0 +1,20 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editor/system
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local dataset may contain non-public data. Add it locally; don't upload accidentally.
+data/*.xlsx
+data/*.xls
